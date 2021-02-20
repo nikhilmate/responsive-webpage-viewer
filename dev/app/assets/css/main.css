@@ -1,0 +1,15 @@
+.app-main {
+    height: 100%;
+}
+
+.a__header {
+    padding: 10px 15px;
+    background-color: #efc600;
+}
+
+.a__heading {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}

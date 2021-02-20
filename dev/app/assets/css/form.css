@@ -1,0 +1,91 @@
+.app-form {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 15px;
+}
+
+.label__form {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-input-align,
+.form-input-wrap,
+.form-btn-wrap {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-input-align {
+    margin-bottom: 20px;
+}
+
+.input__form-res {
+    display: inline-block;
+    outline: none;
+    width: 107px;
+    height: 40px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(201, 201, 201);
+    background-color: #f4efef;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.symbol-x {
+    margin: 0 5px;
+}
+
+.input__form-comn {
+    display: inline-block;
+    outline: none;
+    width: 240px;
+    height: 40px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(201, 201, 201);
+    background-color: #f4efef;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn__form-submit {
+    display: inline-block;
+    outline: none;
+    width: 240px;
+    height: 40px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(252, 97, 0);
+    background-color: #efa300;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn__form-submit:hover {
+    background-color: #efc600;
+}
+
+.select__form {
+    display: inline-block;
+    outline: none;
+    width: 240px;
+    height: 40px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(201, 201, 201);
+    background-color: #f4efef;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}

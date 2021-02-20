@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/app.css">
+</head>
+
+<body>
+    <main class="app-main">
+        <header class="a__header">
+            <h1 class="a__heading">Responsive Page Viewer</h1>
+        </header>
+        <section class="app-body">
+            <form class="app-form" id="window-form">
+                <label class="label__form" for="device">Device:</label>
+                <div class="form-input-wrap">
+                    <select name="device" id="device" class="select__form">
+                        <option value="" selected disabled>Select the device</option>
+                    </select>
+                </div>
+                <label class="label__form" for="resulution-width">Resolution:</label>
+                <div class="form-input-align">
+                    <input type="number" name="res-width" id="resulution-width" class="input__form-res"
+                        placeholder="Width">
+                    <span class="symbol-x">x</span>
+                    <input type="number" name="res-height" id="resulution-height" class="input__form-res"
+                        placeholder="Height">
+                </div>
+                <label class="label__form" for="resulution-width">URL:</label>
+                <div class="form-input-wrap">
+                    <input type="text" name="page-url" id="page-url" class="input__form-comn"
+                        placeholder="www.example.com">
+                </div>
+                <div class="form-btn-wrap">
+                    <button class="btn__form-submit">Create</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
